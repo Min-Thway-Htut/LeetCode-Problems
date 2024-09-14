@@ -11,8 +11,6 @@ I've been actively solving LeetCode problems and sharing my knowledge and soluti
 - If they match, the number is a palindrome.   
 
 
-Sources and related content
-
 ### LeetCode 27
 - First of all, try to loop over the array and check if the elements in the arrary are equal to the input value or not. 
 - If we find that they are equal, remove the duplicate number using splice() method.
