@@ -26,6 +26,10 @@ the final outcome will be current index - 1. The same will be true with incremen
 ### LeetCode 58
 - It first removes leading and trailing whitespace, then splits the string into words.
 - It then extracts the last word from the array and returns its length.
+
+### LeetCode 66
+- The code efficiently adds 1 to a given array of digits representing a number. It starts from the last digit and iteratively adds 1 until it encounters a digit less than 9.
+-  If all digits are 9, a new digit is added at the beginning.
 ## Medium
 
 ## Hard
