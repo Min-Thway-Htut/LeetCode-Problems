@@ -3,7 +3,7 @@
 ## Easy
 
 #### LeetCode 27 | javaScript
-First of all, try to loop over the array and check if the elements in the arrary are equal to the input value or not. If we find that they are equal, remove the duplicate number using splice() methond.
+First of all, try to loop over the array and check if the elements in the arrary are equal to the input value or not. If we find that they are equal, remove the duplicate number using splice() method.
 
 ## Medium
 
