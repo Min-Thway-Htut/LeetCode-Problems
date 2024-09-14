@@ -2,11 +2,11 @@
 
 ## Easy
 
-#### LeetCode 27
+### LeetCode 27
 - First of all, try to loop over the array and check if the elements in the arrary are equal to the input value or not. 
 - If we find that they are equal, remove the duplicate number using splice() method.
 
-#### LeetCode 35
+### LeetCode 35
 - This problem was solved by using for loop and if else statement.
 - As a first step, we need to check if the target value is less than the very first value in the array. If it is true, we shift the index of target value to the very first place which is zero. 
 - Similary, it the target value is greater than the last item in the array, we shift the idex of target value to the last place in the array. 
