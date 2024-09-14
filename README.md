@@ -13,6 +13,10 @@ I've been actively solving LeetCode problems and sharing my knowledge and soluti
 - If these two cases are not true, we simply use for loop to check if there were any vlaue in the array matching the target value. If there are matching value, the program would simply return the index of the current value. 
 - Finally, if the value of the target is equal to the value of the difference 1 and the the value in the item, 
 the final outcome will be current index - 1. The same will be true with increment of one.
+
+### LeetCode 58
+- It first removes leading and trailing whitespace, then splits the string into words.
+- It then extracts the last word from the array and returns its length.
 ## Medium
 
 ## Hard
