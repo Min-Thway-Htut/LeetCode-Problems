@@ -1,7 +1,10 @@
 # Solutions to LeetCode Problems
 I've been actively solving LeetCode problems and sharing my knowledge and solutions. You can find detailed explanations of my approaches in this repository.
 ## Easy
-
+### LeetCode 1
+- The code efficiently solves the two-sum problem by using a hash map to store elements and their indices.
+-  It iterates through the array, calculates complements, and checks if they exist in the hash map.
+-  If a match is found, it returns the indices of the two elements.
 ### LeetCode 27
 - First of all, try to loop over the array and check if the elements in the arrary are equal to the input value or not. 
 - If we find that they are equal, remove the duplicate number using splice() method.
