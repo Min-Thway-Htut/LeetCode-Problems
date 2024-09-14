@@ -1,5 +1,5 @@
 # Solutions to LeetCode Problems
-I have been trying to solve LeetCode problems as much as possible and the knowledge and the solutions will be shared. 
+I've been actively solving LeetCode problems and sharing my knowledge and solutions. You can find detailed explanations of my approaches in this repository.
 ## Easy
 
 ### LeetCode 27
