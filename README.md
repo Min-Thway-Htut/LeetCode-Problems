@@ -29,12 +29,15 @@ the final outcome will be current index - 1. The same will be true with incremen
 
 ### LeetCode 66
 - The code efficiently adds 1 to a given array of digits representing a number. It starts from the last digit and iteratively adds 1 until it encounters a digit less than 9.
--  If all digits are 9, a new digit is added at the beginning.
+- If all digits are 9, a new digit is added at the beginning.
 
 ### LeetCode 69
 
 ### LeetCode 70
 
+### LeetCode 118
+- A simple if-else statement was used to solve this problem.
+- However, please note that this solution only works for the numbers between 1 to 30. 
 ### LeetCode 217
 
 ### LeetCode 509
