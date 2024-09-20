@@ -46,6 +46,11 @@ the final outcome will be current index - 1. The same will be true with incremen
 
 - The problem is solved by Zellers Kongruenz algorithm. To better understand the algorithm, please refer to this resource https://www.geeksforgeeks.org/zellers-congruence-find-day-date/ .
 
+### LeetCode 2236
+
+- The problem is based on the Binary Search Tree algorithm. 
+- First and foremost, we check if the elements exist. If it is the case, we just simply check if the value of parent node is equal to that of the sum of child nodes. 
+
 ### LeetCode 3136
 
 
