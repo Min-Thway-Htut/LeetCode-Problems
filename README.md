@@ -70,7 +70,15 @@ nth step.
 - This command uses sed to print only the 10th line from file.txt. The -n option suppresses automatic printing, while 10p specifies to print the 10th line.
 ### LeetCode 217
 
+- The containsDuplicate function checks if an array nums contains any duplicate numbers. It uses a Set called seen to keep track of numbers encountered.
+-  As it iterates through each number in nums, it checks if the number is already in the Set.
+-   If it is, the function returns true, indicating a duplicate is found. If not, it adds the number to the Set.
+-   If the loop completes without finding duplicates, it returns false.
 ### LeetCode 441
+
+- The `arrangeCoins` function determines how many complete rows of coins can be formed with a given number \( n \). It initializes a `rows` counter and starts with \( i = 1 \) (the number of coins needed for the first row). In a loop, it checks if there are enough coins left to create a new row.
+- If so, it subtracts \( i \) from \( n \), increments the row count, and increases \( i \) for the next row.
+- The loop continues until there aren't enough coins to form a new row, and finally, it returns the total number of complete rows.
 
 ### LeetCode 509
 
