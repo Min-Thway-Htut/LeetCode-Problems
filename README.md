@@ -65,9 +65,9 @@ nth step.
 - However, please note that this solution only works for the numbers between 1 to 30.
 
 ### LeetCode 193
-
+- The command filters lines in file.txt matching phone number formats: XXX-XXX-XXXX and (XXX) XXX-XXXX using regex.
 ### LeetCode 195
-
+- This command uses sed to print only the 10th line from file.txt. The -n option suppresses automatic printing, while 10p specifies to print the 10th line.
 ### LeetCode 217
 
 ### LeetCode 441
