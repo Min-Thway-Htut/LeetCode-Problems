@@ -81,13 +81,17 @@ nth step.
 - The loop continues until there aren't enough coins to form a new row, and finally, it returns the total number of complete rows.
 
 ### LeetCode 509
-
+- The fib function calculates the Fibonacci number for a given input num using recursion. It handles base cases for num equal to 0, 1, or 2, returning 0 or 1 accordingly.
+- For numbers greater than 2, it returns the sum of the two preceding Fibonacci numbers by recursively calling itself with num - 1 and num 2.
+- The function is then tested by logging the Fibonacci values for 5 and 8, which are 5 and 21, respectively.
 ### LeetCode 1185
 
 - The problem is solved by Zellers Kongruenz algorithm. To better understand the algorithm, please refer to this resource https://www.geeksforgeeks.org/zellers-congruence-find-day-date/ .
 
 ### LeetCode 2235
-
+- The sum function takes two numbers, num1 and num2, as inputs and calculates their sum.
+- It stores the result in the variable total and then returns that value.
+- The function is typed in TypeScript, specifying that both inputs and the return value are numbers.
 ### LeetCode 2236
 
 
@@ -100,7 +104,9 @@ nth step.
   
 ### LeetCode 3136
 
-
+- The isValid method checks if a given string word meets specific criteria. It returns False if the word is shorter than 3 characters. It then initializes two flags, has_vowel and has_consonant, to track the presence of vowels and consonants.
+-  The method defines sets for valid characters (letters and digits) and vowels. It iterates through each character in the word, checking if it's in the allowed set. If it is a vowel, it sets has_vowel to True; if it's a consonant (any letter that isn't a vowel), it sets has_consonant to True.
+-  If any character is invalid, it returns False. Finally, it returns True only if both flags are True, indicating the word contains at least one vowel and one consonant.
 ## Medium
 
 ## Hard
