@@ -32,6 +32,17 @@ the final outcome will be current index - 1. The same will be true with incremen
 - If all digits are 9, a new digit is added at the beginning.
 
 ### LeetCode 69
+- The code defines a function called mySqrt that finds the largest whole number whose square is less than or equal to a given non-negative number 
+𝑥
+x. If 
+𝑥
+x is less than 2, it simply returns 
+𝑥
+x.
+- It uses a method that repeatedly narrows down the range of possible answers by checking the middle point of the current range. If the middle point squared is equal to 
+𝑥
+x, it returns that point.
+- If it's too low, it looks higher, and if it's too high, it looks lower. Once it finishes searching, it returns the largest number that meets the condition.
 
 ### LeetCode 70
 
