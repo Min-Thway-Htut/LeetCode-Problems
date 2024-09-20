@@ -47,8 +47,14 @@ the final outcome will be current index - 1. The same will be true with incremen
 - The problem is solved by Zellers Kongruenz algorithm. To better understand the algorithm, please refer to this resource https://www.geeksforgeeks.org/zellers-congruence-find-day-date/ .
 ### LeetCode 2236
 
+
 - The problem is simply based on the Binary Search Tree Alogrithm.
 - First and foremost, we check if the elements(parent and children) exist. If so, check whether the value of parent is qual to that of the sum of children nodes or not.
+
+### LeetCode 2278
+
+- Count how many times a targeted letter contains in the given word using count() method.
+  
 ### LeetCode 3136
 
 
