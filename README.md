@@ -37,14 +37,24 @@ the final outcome will be current index - 1. The same will be true with incremen
 
 ### LeetCode 118
 - A simple if-else statement was used to solve this problem.
-- However, please note that this solution only works for the numbers between 1 to 30. 
+- However, please note that this solution only works for the numbers between 1 to 30.
+
+### LeetCode 193
+
+### LeetCode 195
+
 ### LeetCode 217
+
+### LeetCode 441
 
 ### LeetCode 509
 
 ### LeetCode 1185
 
 - The problem is solved by Zellers Kongruenz algorithm. To better understand the algorithm, please refer to this resource https://www.geeksforgeeks.org/zellers-congruence-find-day-date/ .
+
+### LeetCode 2235
+
 ### LeetCode 2236
 
 
