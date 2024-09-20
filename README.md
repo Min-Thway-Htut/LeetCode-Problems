@@ -46,6 +46,20 @@ x, it returns that point.
 
 ### LeetCode 70
 
+- The code defines a function called climbStairs that calculates the number of ways to reach the top of a staircase with 
+𝑛
+n steps, where you can take either one or two steps at a time.
+- If 
+𝑛
+n is 1 or 2, it directly returns 
+𝑛
+n because there are that many ways to climb. It creates an array dp to store the number of ways to reach each step. The first two steps are initialized with 1 and 2 ways, respectively. Then, it uses a loop to fill in the array for steps from 3 to 
+𝑛
+n by adding the ways to reach the two previous steps.
+- Finally, it returns the number of ways to reach the 
+𝑛
+nth step.
+
 ### LeetCode 118
 - A simple if-else statement was used to solve this problem.
 - However, please note that this solution only works for the numbers between 1 to 30.
