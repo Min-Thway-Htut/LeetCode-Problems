@@ -109,4 +109,7 @@ nth step.
 -  If any character is invalid, it returns False. Finally, it returns True only if both flags are True, indicating the word contains at least one vowel and one consonant.
 ## Medium
 
+### LeetCode 102
+
+- Simply use this line of code tr -s ' ' '\n' < words.txt | sort | uniq -c | sort -nr | awk '{print $2, $1}' to solve the problem.
 ## Hard
