@@ -64,7 +64,11 @@ nth step.
 - A simple if-else statement was used to solve this problem.
 - However, please note that this solution only works for the numbers between 1 to 30.
 ### LeetCode 175
-- Simply write this command "SELECT p.firstName, p.lastName, a.city, a.state FROM Person p LEFT JOIN Address a ON p.personId = a.personId;"
+- Simply write this command line "SELECT p.firstName, p.lastName, a.city, a.state FROM Person p LEFT JOIN Address a ON p.personId = a.personId;"
+
+### LeetCode 181
+- Simply write this command line "SELECT e.name AS Employee
+FROM Employee e JOIN Employee m ON e.managerId = m.id WHERE e.salary > m.salary;"
 ### LeetCode 193
 - The command filters lines in file.txt matching phone number formats: XXX-XXX-XXXX and (XXX) XXX-XXXX using regex.
 ### LeetCode 195
