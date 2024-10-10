@@ -10,6 +10,8 @@ I've been actively solving LeetCode problems and sharing my knowledge and soluti
 - The code checks if a number is a palindrome by converting it to a string, reversing the string, and comparing it to the original string.
 - If they match, the number is a palindrome.   
 
+### LeetCode 14
+
 
 ### LeetCode 27
 - First of all, try to loop over the array and check if the elements in the arrary are equal to the input value or not. 
