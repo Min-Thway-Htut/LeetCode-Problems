@@ -52,6 +52,9 @@ the final outcome will be current index - 1. The same will be true with incremen
 - The fib function calculates the Fibonacci number for a given input num using recursion. It handles base cases for num equal to 0, 1, or 2, returning 0 or 1 accordingly.
 - For numbers greater than 2, it returns the sum of the two preceding Fibonacci numbers by recursively calling itself with num - 1 and num 2.
 - The function is then tested by logging the Fibonacci values for 5 and 8, which are 5 and 21, respectively.
+
+### LeetCode 596
+- Simply write this command line " SELECT class FROM Courses GROUP BY class HAVING COUNT(student) >= 5; "
 ### LeetCode 1185
 
 - The problem is solved by Zellers Kongruenz algorithm. To better understand the algorithm, please refer to this resource https://www.geeksforgeeks.org/zellers-congruence-find-day-date/ .
