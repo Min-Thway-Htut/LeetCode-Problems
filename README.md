@@ -39,11 +39,18 @@ the final outcome will be current index - 1. The same will be true with incremen
 
 ### LeetCode 118
 - A simple if-else statement was used to solve this problem.
-- However, please note that this solution only works for the numbers between 1 to 30. 
+- However, please note that this solution only works for the numbers between 1 to 30.
+
+### LeetCode 193
+- The command filters lines in file.txt matching phone number formats: XXX-XXX-XXXX and (XXX) XXX-XXXX using regex.
+### LeetCode 195
+- This command uses sed to print only the 10th line from file.txt. The -n option suppresses automatic printing, while 10p specifies to print the 10th line.
 ### LeetCode 217
 ### LeetCode 441
 ### LeetCode 509
-
+- The fib function calculates the Fibonacci number for a given input num using recursion. It handles base cases for num equal to 0, 1, or 2, returning 0 or 1 accordingly.
+- For numbers greater than 2, it returns the sum of the two preceding Fibonacci numbers by recursively calling itself with num - 1 and num 2.
+- The function is then tested by logging the Fibonacci values for 5 and 8, which are 5 and 21, respectively.
 ### LeetCode 1185
 
 - The problem is solved by Zellers Kongruenz algorithm. To better understand the algorithm, please refer to this resource https://www.geeksforgeeks.org/zellers-congruence-find-day-date/ .
@@ -56,7 +63,4 @@ the final outcome will be current index - 1. The same will be true with incremen
 
 ## Medium
 
-### LeetCode 192
-
-- Simply use this line of code tr -s ' ' '\n' < words.txt | sort | uniq -c | sort -nr | awk '{print $2, $1}' to solve the problem
 ## Hard
