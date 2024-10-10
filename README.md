@@ -40,7 +40,8 @@ the final outcome will be current index - 1. The same will be true with incremen
 ### LeetCode 118
 - A simple if-else statement was used to solve this problem.
 - However, please note that this solution only works for the numbers between 1 to 30.
-
+### LeetCode 182
+- Simply Write this command line " SELECT email FROM Person GROUP BY email HAVING COUNT(email) > 1; "
 ### LeetCode 193
 - The command filters lines in file.txt matching phone number formats: XXX-XXX-XXXX and (XXX) XXX-XXXX using regex.
 ### LeetCode 195
