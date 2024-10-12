@@ -63,6 +63,7 @@ the final outcome will be current index - 1. The same will be true with incremen
 ### LeetCode 2619
 ### LeetCode 2621
 ### LeetCode 2667
+### LeetCode 2726
 ### LeetCode 3136
 
 
