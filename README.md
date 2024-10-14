@@ -47,6 +47,7 @@ the final outcome will be current index - 1. The same will be true with incremen
 ### LeetCode 195
 - This command uses sed to print only the 10th line from file.txt. The -n option suppresses automatic printing, while 10p specifies to print the 10th line.
 ### LeetCode 217
+### LeetCode 263
 ### LeetCode 441
 ### LeetCode 509
 - The fib function calculates the Fibonacci number for a given input num using recursion. It handles base cases for num equal to 0, 1, or 2, returning 0 or 1 accordingly.
@@ -55,6 +56,9 @@ the final outcome will be current index - 1. The same will be true with incremen
 
 ### LeetCode 596
 - Simply write this command line " SELECT class FROM Courses GROUP BY class HAVING COUNT(student) >= 5; "
+
+### LeetCode 1075
+
 ### LeetCode 1185
 
 - The problem is solved by Zellers Kongruenz algorithm. To better understand the algorithm, please refer to this resource https://www.geeksforgeeks.org/zellers-congruence-find-day-date/ .
