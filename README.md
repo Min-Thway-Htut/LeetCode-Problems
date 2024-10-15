@@ -11,7 +11,7 @@ I've been actively solving LeetCode problems and sharing my knowledge and soluti
 - If they match, the number is a palindrome.   
 
 ### LeetCode 14
-
+The code finds the longest common prefix among a list of strings. It starts with the first string as the prefix, then iterates through the others, shortening the prefix if needed. If no common prefix is found, it returns an empty string; otherwise, it returns the longest common prefix.
 
 ### LeetCode 27
 - First of all, try to loop over the array and check if the elements in the arrary are equal to the input value or not. 
