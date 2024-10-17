@@ -63,7 +63,8 @@ the final outcome will be current index - 1. The same will be true with incremen
 - Simply write this command line " SELECT class FROM Courses GROUP BY class HAVING COUNT(student) >= 5; "
 
 ### LeetCode 1051
-
+### LeetCode 1068
+- Simply write this command line " SELECT Product.product_name, Sales.year, Sales.price FROM Sales INNER JOIN Product ON Sales.product_id = Product.product_id; "
 ### LeetCode 1075
 
 ### LeetCode 1185
