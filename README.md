@@ -57,6 +57,8 @@ the final outcome will be current index - 1. The same will be true with incremen
 - For numbers greater than 2, it returns the sum of the two preceding Fibonacci numbers by recursively calling itself with num - 1 and num 2.
 - The function is then tested by logging the Fibonacci values for 5 and 8, which are 5 and 21, respectively.
 
+### LeetCode 511
+- Simply write this command line " SELECT player_id, MIN(event_date) AS first_login FROM Activity GROUP BY player_id; "
 ### LeetCode 596
 - Simply write this command line " SELECT class FROM Courses GROUP BY class HAVING COUNT(student) >= 5; "
 
