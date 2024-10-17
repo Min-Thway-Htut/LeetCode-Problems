@@ -62,6 +62,8 @@ the final outcome will be current index - 1. The same will be true with incremen
 ### LeetCode 596
 - Simply write this command line " SELECT class FROM Courses GROUP BY class HAVING COUNT(student) >= 5; "
 
+### LeetCode 1051
+
 ### LeetCode 1075
 
 ### LeetCode 1185
