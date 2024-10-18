@@ -36,6 +36,16 @@ the final outcome will be current index - 1. The same will be true with incremen
 
 ### LeetCode 69
 
+- The mySqrt function calculates the square root of a non-negative integer x using binary search. It searches between 0 and x, narrowing down the range by comparing the square of the midpoint with x.
+-  The loop continues until the closest integer square root is found and returned.
+
+
+
+
+
+
+
+
 ### LeetCode 70
 
 ### LeetCode 118
