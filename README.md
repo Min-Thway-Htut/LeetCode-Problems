@@ -36,13 +36,20 @@ the final outcome will be current index - 1. The same will be true with incremen
 
 ### LeetCode 69
 
+- The mySqrt function calculates the square root of a non-negative integer x using binary search. It searches between 0 and x, narrowing down the range by comparing the square of the midpoint with x.
+-  The loop continues until the closest integer square root is found and returned.
 ### LeetCode 70
-
+- This code solves the "climbing stairs" problem using dynamic programming.
+- It initializes an array dp where each element stores the number of ways to reach that step. The base cases are set for 1 and 2 steps.
+- Then, it iterates from the 3rd step, calculating each value based on the previous two steps.
 ### LeetCode 118
 - A simple if-else statement was used to solve this problem.
 - However, please note that this solution only works for the numbers between 1 to 30.
 
 ### LeetCode 125
+- The isPalindrome function checks if a given string s is a palindrome.
+- It removes non-alphanumeric characters, converts the string to lowercase, and then compares it to its reversed version.
+- It returns true if they match or if the string is a space; otherwise, it returns false.
 ### LeetCode 182
 - Simply Write this command line " SELECT email FROM Person GROUP BY email HAVING COUNT(email) > 1; "
 ### LeetCode 193
@@ -66,7 +73,7 @@ the final outcome will be current index - 1. The same will be true with incremen
 ### LeetCode 1068
 - Simply write this command line " SELECT Product.product_name, Sales.year, Sales.price FROM Sales INNER JOIN Product ON Sales.product_id = Product.product_id; "
 ### LeetCode 1075
-
+### LeetCode 1108
 ### LeetCode 1185
 
 - The problem is solved by Zellers Kongruenz algorithm. To better understand the algorithm, please refer to this resource https://www.geeksforgeeks.org/zellers-congruence-find-day-date/ .
