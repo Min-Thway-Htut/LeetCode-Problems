@@ -47,6 +47,9 @@ the final outcome will be current index - 1. The same will be true with incremen
 - However, please note that this solution only works for the numbers between 1 to 30.
 
 ### LeetCode 125
+- The isPalindrome function checks if a given string s is a palindrome.
+- It removes non-alphanumeric characters, converts the string to lowercase, and then compares it to its reversed version.
+- It returns true if they match or if the string is a space; otherwise, it returns false.
 ### LeetCode 182
 - Simply Write this command line " SELECT email FROM Person GROUP BY email HAVING COUNT(email) > 1; "
 ### LeetCode 193
