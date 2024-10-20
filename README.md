@@ -66,6 +66,9 @@ the final outcome will be current index - 1. The same will be true with incremen
 
 ### LeetCode 511
 - Simply write this command line " SELECT player_id, MIN(event_date) AS first_login FROM Activity GROUP BY player_id; "
+
+### LeetCode 577
+- Simply write this query statement " SELECT Employee.name, Bonus.bonus FROM Employee LEFT JOIN Bonus ON Employee.empId = Bonus.empId WHERE Bonus.bonus < 1000 OR Bonus.bonus is NULL; "
 ### LeetCode 596
 - Simply write this command line " SELECT class FROM Courses GROUP BY class HAVING COUNT(student) >= 5; "
 
