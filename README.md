@@ -69,6 +69,9 @@ the final outcome will be current index - 1. The same will be true with incremen
 
 ### LeetCode 577
 - Simply write this query statement " SELECT Employee.name, Bonus.bonus FROM Employee LEFT JOIN Bonus ON Employee.empId = Bonus.empId WHERE Bonus.bonus < 1000 OR Bonus.bonus is NULL; "
+
+### LeetCode 584
+- Simply write this MySQL query statement " SELECT name FROM Customer WHERE referee_id != 2 OR referee_id IS NULL; "
 ### LeetCode 596
 - Simply write this command line " SELECT class FROM Courses GROUP BY class HAVING COUNT(student) >= 5; "
 
