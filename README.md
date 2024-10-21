@@ -75,6 +75,9 @@ the final outcome will be current index - 1. The same will be true with incremen
 ### LeetCode 596
 - Simply write this command line " SELECT class FROM Courses GROUP BY class HAVING COUNT(student) >= 5; "
 
+### LeetCode 620
+- Simply write this command line " SELECT id, movie, description, rating FROM Cinema WHERE description != "boring" AND id % 2 != 0 ORDER BY rating DESC; "
+
 ### LeetCode 884
 
 ### LeetCode 1051
