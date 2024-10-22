@@ -79,6 +79,8 @@ the final outcome will be current index - 1. The same will be true with incremen
 - Simply write this command line " SELECT id, movie, description, rating FROM Cinema WHERE description != "boring" AND id % 2 != 0 ORDER BY rating DESC; "
 
 ### LeetCode 884
+- The function uncommonFromSentences combines two input strings s1 and s2, counts each word's occurrences using a frequency map, and returns words that appear exactly once in the combined arrays.
+- It first splits both strings into word arrays, then identifies and returns the uncommon words.
 
 ### LeetCode 1051
 ### LeetCode 1068
